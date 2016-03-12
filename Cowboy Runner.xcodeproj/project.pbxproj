@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA6254B1C93E40800001986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6254A1C93E40800001986 /* AppDelegate.swift */; };
+		0CA6254D1C93E40800001986 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CA6254C1C93E40800001986 /* GameScene.sks */; };
+		0CA6254F1C93E40800001986 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6254E1C93E40800001986 /* GameScene.swift */; };
+		0CA625511C93E40800001986 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA625501C93E40800001986 /* GameViewController.swift */; };
+		0CA625541C93E40800001986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625521C93E40800001986 /* Main.storyboard */; };
+		0CA625561C93E40800001986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625551C93E40800001986 /* Assets.xcassets */; };
+		0CA625591C93E40800001986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA625571C93E40800001986 /* LaunchScreen.storyboard */; };
+		0CA625641C93E40800001986 /* Cowboy_RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA625631C93E40800001986 /* Cowboy_RunnerTests.swift */; };
+		0CA6256F1C93E40800001986 /* Cowboy_RunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6256E1C93E40800001986 /* Cowboy_RunnerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CA625601C93E40800001986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CA6253F1C93E40800001986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA625461C93E40800001986;
+			remoteInfo = "Cowboy Runner";
+		};
+		0CA6256B1C93E40800001986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CA6253F1C93E40800001986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA625461C93E40800001986;
+			remoteInfo = "Cowboy Runner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CA625471C93E40800001986 /* Cowboy Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cowboy Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA6254A1C93E40800001986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CA6254C1C93E40800001986 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0CA6254E1C93E40800001986 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0CA625501C93E40800001986 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0CA625531C93E40800001986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CA625551C93E40800001986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CA625581C93E40800001986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CA6255A1C93E40800001986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA6255F1C93E40800001986 /* Cowboy RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cowboy RunnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA625631C93E40800001986 /* Cowboy_RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cowboy_RunnerTests.swift; sourceTree = "<group>"; };
+		0CA625651C93E40800001986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA6256A1C93E40800001986 /* Cowboy RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cowboy RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA6256E1C93E40800001986 /* Cowboy_RunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cowboy_RunnerUITests.swift; sourceTree = "<group>"; };
+		0CA625701C93E40800001986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CA625441C93E40800001986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6255C1C93E40800001986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA625671C93E40800001986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA6253E1C93E40800001986 = {
+			isa = PBXGroup;
+			children = (
+				0CA625491C93E40800001986 /* Cowboy Runner */,
+				0CA625621C93E40800001986 /* Cowboy RunnerTests */,
+				0CA6256D1C93E40800001986 /* Cowboy RunnerUITests */,
+				0CA625481C93E40800001986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CA625481C93E40800001986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CA625471C93E40800001986 /* Cowboy Runner.app */,
+				0CA6255F1C93E40800001986 /* Cowboy RunnerTests.xctest */,
+				0CA6256A1C93E40800001986 /* Cowboy RunnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CA625491C93E40800001986 /* Cowboy Runner */ = {
+			isa = PBXGroup;
+			children = (
+				0CA6254A1C93E40800001986 /* AppDelegate.swift */,
+				0CA6254C1C93E40800001986 /* GameScene.sks */,
+				0CA6254E1C93E40800001986 /* GameScene.swift */,
+				0CA625501C93E40800001986 /* GameViewController.swift */,
+				0CA625521C93E40800001986 /* Main.storyboard */,
+				0CA625551C93E40800001986 /* Assets.xcassets */,
+				0CA625571C93E40800001986 /* LaunchScreen.storyboard */,
+				0CA6255A1C93E40800001986 /* Info.plist */,
+			);
+			path = "Cowboy Runner";
+			sourceTree = "<group>";
+		};
+		0CA625621C93E40800001986 /* Cowboy RunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CA625631C93E40800001986 /* Cowboy_RunnerTests.swift */,
+				0CA625651C93E40800001986 /* Info.plist */,
+			);
+			path = "Cowboy RunnerTests";
+			sourceTree = "<group>";
+		};
+		0CA6256D1C93E40800001986 /* Cowboy RunnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CA6256E1C93E40800001986 /* Cowboy_RunnerUITests.swift */,
+				0CA625701C93E40800001986 /* Info.plist */,
+			);
+			path = "Cowboy RunnerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CA625461C93E40800001986 /* Cowboy Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA625731C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy Runner" */;
+			buildPhases = (
+				0CA625431C93E40800001986 /* Sources */,
+				0CA625441C93E40800001986 /* Frameworks */,
+				0CA625451C93E40800001986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cowboy Runner";
+			productName = "Cowboy Runner";
+			productReference = 0CA625471C93E40800001986 /* Cowboy Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CA6255E1C93E40800001986 /* Cowboy RunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA625761C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy RunnerTests" */;
+			buildPhases = (
+				0CA6255B1C93E40800001986 /* Sources */,
+				0CA6255C1C93E40800001986 /* Frameworks */,
+				0CA6255D1C93E40800001986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CA625611C93E40800001986 /* PBXTargetDependency */,
+			);
+			name = "Cowboy RunnerTests";
+			productName = "Cowboy RunnerTests";
+			productReference = 0CA6255F1C93E40800001986 /* Cowboy RunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CA625691C93E40800001986 /* Cowboy RunnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA625791C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy RunnerUITests" */;
+			buildPhases = (
+				0CA625661C93E40800001986 /* Sources */,
+				0CA625671C93E40800001986 /* Frameworks */,
+				0CA625681C93E40800001986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CA6256C1C93E40800001986 /* PBXTargetDependency */,
+			);
+			name = "Cowboy RunnerUITests";
+			productName = "Cowboy RunnerUITests";
+			productReference = 0CA6256A1C93E40800001986 /* Cowboy RunnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CA6253F1C93E40800001986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Awesome Tuts";
+				TargetAttributes = {
+					0CA625461C93E40800001986 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0CA6255E1C93E40800001986 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0CA625461C93E40800001986;
+					};
+					0CA625691C93E40800001986 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0CA625461C93E40800001986;
+					};
+				};
+			};
+			buildConfigurationList = 0CA625421C93E40800001986 /* Build configuration list for PBXProject "Cowboy Runner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CA6253E1C93E40800001986;
+			productRefGroup = 0CA625481C93E40800001986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CA625461C93E40800001986 /* Cowboy Runner */,
+				0CA6255E1C93E40800001986 /* Cowboy RunnerTests */,
+				0CA625691C93E40800001986 /* Cowboy RunnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CA625451C93E40800001986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6254D1C93E40800001986 /* GameScene.sks in Resources */,
+				0CA625591C93E40800001986 /* LaunchScreen.storyboard in Resources */,
+				0CA625561C93E40800001986 /* Assets.xcassets in Resources */,
+				0CA625541C93E40800001986 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6255D1C93E40800001986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA625681C93E40800001986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA625431C93E40800001986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6254F1C93E40800001986 /* GameScene.swift in Sources */,
+				0CA625511C93E40800001986 /* GameViewController.swift in Sources */,
+				0CA6254B1C93E40800001986 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA6255B1C93E40800001986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA625641C93E40800001986 /* Cowboy_RunnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA625661C93E40800001986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA6256F1C93E40800001986 /* Cowboy_RunnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CA625611C93E40800001986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA625461C93E40800001986 /* Cowboy Runner */;
+			targetProxy = 0CA625601C93E40800001986 /* PBXContainerItemProxy */;
+		};
+		0CA6256C1C93E40800001986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA625461C93E40800001986 /* Cowboy Runner */;
+			targetProxy = 0CA6256B1C93E40800001986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CA625521C93E40800001986 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA625531C93E40800001986 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CA625571C93E40800001986 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA625581C93E40800001986 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CA625711C93E40800001986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CA625721C93E40800001986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CA625741C93E40800001986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cowboy Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AwesomeTuts.Cowboy-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CA625751C93E40800001986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cowboy Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AwesomeTuts.Cowboy-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0CA625771C93E40800001986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Cowboy RunnerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AwesomeTuts.Cowboy-RunnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cowboy Runner.app/Cowboy Runner";
+			};
+			name = Debug;
+		};
+		0CA625781C93E40800001986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cowboy RunnerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AwesomeTuts.Cowboy-RunnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cowboy Runner.app/Cowboy Runner";
+			};
+			name = Release;
+		};
+		0CA6257A1C93E40800001986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Cowboy RunnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AwesomeTuts.Cowboy-RunnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cowboy Runner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0CA6257B1C93E40800001986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cowboy RunnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AwesomeTuts.Cowboy-RunnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cowboy Runner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CA625421C93E40800001986 /* Build configuration list for PBXProject "Cowboy Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA625711C93E40800001986 /* Debug */,
+				0CA625721C93E40800001986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA625731C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA625741C93E40800001986 /* Debug */,
+				0CA625751C93E40800001986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CA625761C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy RunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA625771C93E40800001986 /* Debug */,
+				0CA625781C93E40800001986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CA625791C93E40800001986 /* Build configuration list for PBXNativeTarget "Cowboy RunnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA6257A1C93E40800001986 /* Debug */,
+				0CA6257B1C93E40800001986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CA6253F1C93E40800001986 /* Project object */;
+}
