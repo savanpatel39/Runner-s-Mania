@@ -9,9 +9,9 @@
 </p>
 
 >Game's greeting screen contains all the required options(i.e.Play, Change character, Settings and many more). Players can navigate through any of game's options from this screen. They can see highs score, change the characters if the game, they even can change the theme of the game which is nothing but background. Settings menu will allow users to enable and disable music and game effects.
+
 ___________
 
-<br/>
 
 ### Game play screen
 
@@ -21,11 +21,7 @@ ___________
 
 >Chosen game character will run endlessly avoiding obstacles, stopping upon which will reduce their running speed. With the time spend plaing game speed of obstacles will increase, which will evetually increase game difficulty. All player has to do is avoid spikes and stopping up on obstacles.
 
-<br/>
-
 _____________
-
-<br/>
 
 ### Feature : Sound and game effects
 
@@ -33,12 +29,7 @@ _____________
 <img src="https://user-images.githubusercontent.com/22201958/42858655-9660c796-8a1d-11e8-91ec-06db132933a4.jpg">
 
 >During game play player has option to mute background music and sound effects or both using this options.
-
-<br/>
-
 ___________
-
-<br/>
 
 ### Feature : Choose your theme
 
@@ -47,12 +38,7 @@ ___________
 </p>
 
 >The game provides four glamorous themes to choose from. These will give the players a feeling that they are running along with the game chatacter in the provided scene. Players get to choose the field they want to run in. Backgrounds and obstacles are chosen for a complete different feel of game up on choosing new theme.
-
-<br/>
-
 __________
-
-<br/>
 
 ### Feature : Choose your character
 
@@ -62,12 +48,7 @@ __________
 
 >Here player can choose among three game characters. Player does not have to go back again and tap on play button on main screen, after selecting character game will be started right away.
 
-<br/>
-
 _____________
-
-
-<br/>
 
 ### Game over!
 
